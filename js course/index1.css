@@ -1,0 +1,182 @@
+*{
+    Box-Sizing: Border-Box;
+}
+
+Html{
+Height: 100%;
+}
+Body{
+Width: 100%;
+Margin: 0;
+Font-Family: Poppins, Helvetica, Sans-Serif;
+Font-Weight: 400;
+Background:#0b0624;
+Color:white;
+}
+
+.back-video{
+    position:absolute;
+    right:0;
+    bottom:0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9) {
+    .back-video{
+        width:100%;
+        height:auto;
+
+    }
+    
+}
+@media (max-aspect-ratio:16/9) {
+    .back-video{
+        width:auto;
+        height:100%;
+        
+    }
+    
+}
+
+.Container{
+Margin: 0 Auto;
+Width: 100%;
+Max-Width: 1140px;
+Text-Align: Center;
+Font-Size: 0;
+}
+
+.Btn{
+    Position: Relative;
+    Display: Inline-Block;
+    Margin: 15px;
+    Padding: 15px 30px;
+    Text-Align: Center;
+    Font-Size: 16px;
+    Letter-Spacing: 1px;
+    Text-Decoration: None;
+    Color: #Ffffff;
+    Background: Mediumseagreen;
+    Border: None;
+    Border-Radius: 50px;
+    Cursor: Pointer;
+    Transition: Ease-Out 0.5s;
+    }
+    
+.Btn.Btn-Slide-0{
+    Box-Shadow: Inset 0 0 0 0 #303439;
+    }
+    .Btn.Btn-Slide-0:Hover{
+    Box-Shadow: Inset 0 200px 0 0 #303439;
+    }
+
+.Btn{
+Position: Relative;
+Display: Inline-Block;
+Margin: 15px;
+Padding: 15px 30px;
+Text-Align: Center;
+Font-Size: 16px;
+Letter-Spacing: 1px;
+Text-Decoration: None;
+Color: #Ffffff;
+Background: Mediumseagreen;
+Border: None;
+Border-Radius: 50px;
+Cursor: Pointer;
+Transition: Ease-Out 0.5s;
+}
+
+
+.Btn.Btn-Slide-1{
+Box-Shadow: Inset 0 0 0 0 #303439;
+}
+.Btn.Btn-Slide-1:Hover{
+Box-Shadow: Inset 0 200px 0 0 #303439;
+}
+
+
+.Btn.Btn-Slide-2{
+Box-Shadow: Inset 0 0 0 0 #303439;
+}
+.Btn.Btn-Slide-2:Hover{
+Box-Shadow: Inset 0 -100px 0 0 #303439;
+}
+
+
+.Btn.Btn-Slide-3{
+Box-Shadow: Inset 0 0 0 0 #303439;
+}
+.Btn.Btn-Slide-3:Hover{
+Box-Shadow: Inset 200px 0 0 0 #303439;
+}
+
+.Btn.Btn-Slide-4{
+Box-Shadow: Inset 0 0 0 0 #303439;
+}
+.Btn.Btn-Slide-4:Hover{
+Box-Shadow: Inset -200px 0 0 0 #303439;
+}
+
+
+.Btn.Btn-Slide-5{
+Box-Shadow: Inset 0 0 0 0 #303439;
+}
+.Btn.Btn-Slide-5:Hover{
+Box-Shadow: Inset 0 0 0 25px #303439;
+}
+
+
+form{
+    position: relative;
+    margin-top:-40px;
+    left: 92%;
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    Background: Mediumseagreen;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid white;
+    padding: 5px;
+}
+input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+.fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #07051a;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+form:hover{
+    width: 200px;
+    cursor: pointer;
+}
+form:hover input{
+    display: block;
+}
+form:hover .fa{
+    background:Mediumseagreen;
+    color: white;
+}

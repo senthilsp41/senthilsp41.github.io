@@ -1,0 +1,168 @@
+/* Google Font CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: poppins;
+}
+.logo{
+    width:100%;
+    min-height:50px;
+    background-color: rgb(159, 173, 173);
+    margin-bottom: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    
+    width:10%;
+    min-height: 10vh;
+}
+
+.header{
+    width:100%;
+    min-height:40px;
+    background-color: rgb(222, 232, 232);
+    line-height: 40px;
+    text-align: center;
+    margin-bottom:10px;
+    font-size:15px;
+    color:rgb(189, 27, 27);
+}
+.navbar{
+    width:100%;
+    min-height:10vh;
+    background-color: burlywood;
+    margin-bottom: 10px;
+}
+.navbar .nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    gap:100px;
+    font-size: 18px;
+}
+.nav-bar li{
+    list-style-type:none;
+}
+.nav-bar a{
+    color:black;
+}
+.nav-bar a:hover{
+    color:rgb(189, 27, 27);
+}
+.main-container{
+    width:100%;
+    min-height:85vh;
+    margin-bottom: 10px;
+
+}
+.about{
+    width:50%;
+    min-height:82vh;
+    background-color: darkcyan;
+    float:left;
+    margin:10px 17px;
+    
+}
+.about h1{
+    text-align: center;
+    font-size:30px;
+    color:rgb(189, 27, 27);
+
+}
+.about p{
+    text-align: justify;
+    padding: 10px;
+}
+.about .image{
+    width:30%;
+    height:30vh;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    margin:0 20px;
+}
+
+.quickLinks{
+    width:40%;
+    min-height:40vh;
+    background-color: blueviolet;
+    float: right;
+    margin:10px 50px;
+    text-align: center;  
+}
+.quickLinks h1{
+    color:rgb(189, 27, 27);
+
+}
+.quickLinks .links li{
+    list-style-type:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+    color:black;
+}
+.quickLinks .links li:hover{
+    color:rgb(189, 27, 27);
+}
+.quick{
+    width:40%;
+    min-height:19vh;
+    background-color: rgb(232, 160, 160);
+    float:right;
+    margin:10px 50px;
+    text-align: center;
+    line-height: 19vh;
+    
+}
+.quick h1{
+    color:rgb(189, 27, 27);
+
+}
+.quick a{
+    color:black;
+    font-size: 35px;
+    padding: 20px;
+
+}
+.quick a:hover{
+    color:red;
+}
+.footer{
+    width:100%;
+    min-height:15vh;
+    background-color: rgb(155, 155, 187);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer .details{
+    width:100%;
+    height:auto;
+    margin:10px;
+    padding: 20px;
+
+}
+.footer h2{
+    color:rgb(156, 50, 50);
+    font-size:18px;
+}
+.footer .details i{
+    font-size: 25px;
+    color:black;
+    margin:10px;
+}
+ .text{
+    text-align: center;
+ }
